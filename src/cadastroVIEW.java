@@ -136,7 +136,11 @@ public class cadastroVIEW extends javax.swing.JFrame {
 
     private void cadastroNomeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cadastroNomeActionPerformed
         
-        
+        try {
+    JOptionPane.showMessageDialog(null, "Cadastro realizado com sucesso!");
+} catch (Exception e) {
+    JOptionPane.showMessageDialog(null, "Erro ao cadastrar!");
+}
     }//GEN-LAST:event_cadastroNomeActionPerformed
 
     private void btnCadastrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCadastrarActionPerformed
